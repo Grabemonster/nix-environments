@@ -20,6 +20,7 @@ pkgs.mkShell {
     ccache
     clang-tools
     nodePackages.prettier
+    libtommath
   ] ++ extraPkgs;
 
   # https://github.com/NixOS/nixpkgs/blob/79a8a723b9/pkgs/by-name/la/ladybird/package.nix#L144-L147
